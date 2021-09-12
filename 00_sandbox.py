@@ -1,8 +1,7 @@
-get_number = int(input("choose a number?"))
+show_instructions = input("have you played this game before?").lower()
 
-times_five = get_number * 5
+#If they say yes, output 'program continue '
+if show_instructions =="yes":
+    print("program continues")
 
-answer = "{} times five is equal to "\
-    "{}".format (get_number , times_five)
-
-print(answer)
+elif show_instructions == "y"
